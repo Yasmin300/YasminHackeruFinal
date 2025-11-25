@@ -57,16 +57,6 @@ To run the project locally:
 - Backend API endpoints tested via Postman or browser.
 - Database queries verified for correct behavior and data handling.
 
-## 🔍 Known Issues / To‑Do
-- [ ] Improve form validation in front‑end.
-- [ ] Add user authentication (login/logout) for secured sections.
-- [ ] Refactor some repeated CSS/JS into reusable components.
-- [ ] Write automated tests for backend logic.
-
-## 👤 About the Developer
-My name is **Yasmin**. I’m currently 18 years old and studying full‑stack web development at HackerU, focusing on both backend and frontend technologies such as WordPress, JavaScript and SQL.
-This project is part of my portfolio and demonstrates what I’ve learned so far.
-
 ## 📫 Contact
 Feel free to reach out if you’d like to view more of my work, collaborate or have feedback:
 - GitHub: [Yasmin300](https://github.com/Yasmin300)
