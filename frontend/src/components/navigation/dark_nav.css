@@ -1,0 +1,59 @@
+.dark .navbar {
+    background-color: rgb(3, 18, 88);
+    box-shadow: 0 10px 30px rgba(114, 222, 255, 0.712);
+    border: none;
+    border-top: 3px solid rgb(162, 221, 255);
+
+}
+
+.dark .nav-link,
+.dark li {
+    color: rgb(172, 236, 255);
+}
+
+.dark .nav-link:hover,
+.dark li :hover {
+    color: rgb(255, 196, 3);
+}
+
+.dark .active {
+    color: rgb(239, 246, 248) !important;
+    font-weight: bold !important;
+    text-decoration: overline;
+}
+
+
+@media(max-width:991px) {
+
+    .dark ul {
+        background-color: rgb(134, 255, 255);
+    }
+
+    .dark .nav-link,
+    .dark li {
+        width: 80%;
+        color: black;
+        margin: auto;
+    }
+
+    .dark .active {
+        color: rgb(1, 5, 66) !important;
+    }
+
+    .dark .nav-item {
+        background-color: aliceblue;
+        margin: 0 auto !important;
+        padding: 10px;
+        border: 1px solid rgb(30, 1, 110);
+    }
+
+    .dark .navbar-toggler-icon,
+    .dark .navbar-toggler {
+        background-color: white !important;
+    }
+
+    .dark .secPart {
+        color: #000 !important;
+    }
+
+}

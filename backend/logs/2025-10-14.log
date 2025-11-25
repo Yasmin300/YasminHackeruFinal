@@ -1,0 +1,90 @@
+[2025-10-14T14:40:26.638Z] 401 - User is not authorized: jwt expired
+[2025-10-14T14:40:26.641Z] 401 - User is not authorized: jwt expired
+[2025-10-14T14:40:26.652Z] 401 - User is not authorized: jwt expired
+[2025-10-14T14:40:33.727Z] 401 - User is not authorized: jwt expired
+[2025-10-14T14:40:33.730Z] 401 - User is not authorized: jwt expired
+[2025-10-14T14:40:33.740Z] 401 - User is not authorized: jwt expired
+[2025-10-14T14:59:17.664Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T14:59:21.986Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:22:52.486Z] 401 - User is not authorized: jwt expired
+[2025-10-14T15:22:52.490Z] 401 - User is not authorized: jwt expired
+[2025-10-14T15:35:20.616Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:35:20.622Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:35:25.645Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:35:25.655Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:35:38.009Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:35:38.015Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:46:34.612Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:46:34.620Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:46:41.644Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:46:41.680Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:46:51.647Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:46:51.652Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:47:55.402Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:47:55.414Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:48:13.873Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:48:13.882Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:48:29.702Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:48:29.706Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:50:52.686Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:50:52.711Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:50:57.879Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:50:57.883Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:51:09.762Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:51:09.768Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:52:10.567Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:52:10.583Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:52:16.337Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:52:16.355Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:52:25.539Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:52:25.546Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:52:28.156Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:52:28.163Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:52:30.746Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:52:30.753Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:52:42.101Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:52:42.106Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:58:40.431Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:58:40.457Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:58:52.631Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:58:52.643Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:58:57.768Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:58:57.786Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T15:59:09.602Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T15:59:09.607Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T16:00:39.661Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T16:00:39.682Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T16:00:47.226Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T16:00:47.232Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T16:06:06.022Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T16:06:06.062Z] 401 - User is not authorized: jwt malformed
+[2025-10-14T16:25:23.743Z] 401 - User is not authorized: jwt expired
+[2025-10-14T16:25:23.750Z] 401 - User is not authorized: jwt expired
+[2025-10-14T16:26:17.111Z] 404 - Job not found
+[2025-10-14T16:26:20.949Z] 404 - Job not found
+[2025-10-14T16:27:31.833Z] 404 - Job not found
+[2025-10-14T16:27:59.226Z] 404 - Job not found
+[2025-10-14T16:33:42.548Z] 404 - Job not found
+[2025-10-14T16:34:03.840Z] 404 - Job not found
+[2025-10-14T17:10:23.129Z] 403 - Email is already in use
+[2025-10-14T17:10:29.109Z] 403 - Email is already in use
+[2025-10-14T17:21:26.731Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:22:38.986Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:23:55.525Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:24:00.417Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:25:00.450Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:26:43.770Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:26:48.385Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:26:50.384Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:26:51.241Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:26:52.913Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:26:54.273Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:26:56.860Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:28:18.443Z] 400 - "address.state" must be a string
+[2025-10-14T17:28:25.889Z] 400 - "address.state" must be a string
+[2025-10-14T17:28:32.665Z] 400 - "address.state" must be a string
+[2025-10-14T17:28:35.935Z] 400 - "address.state" must be a string
+[2025-10-14T17:29:30.433Z] 400 - "address.state" must be a string
+[2025-10-14T17:29:38.023Z] 400 - "address.state" must be a string
+[2025-10-14T17:32:20.023Z] 500 - Cannot read properties of undefined (reading 'toString')
+[2025-10-14T17:37:01.962Z] 401 - User is not authorized: jwt expired

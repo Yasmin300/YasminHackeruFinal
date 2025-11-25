@@ -1,0 +1,9 @@
+[2025-10-19T13:16:58.103Z] 401 - User is not authorized: jwt expired
+[2025-10-19T13:16:58.111Z] 401 - User is not authorized: jwt expired
+[2025-10-19T13:17:05.812Z] 403 - email or password incorrect
+[2025-10-19T13:17:22.825Z] 403 - email or password incorrect
+[2025-10-19T13:17:25.311Z] 403 - email or password incorrect
+[2025-10-19T13:17:27.038Z] 403 - email or password incorrect
+[2025-10-19T13:19:49.544Z] 403 - You cannot change your own admin status
+[2025-10-19T13:19:51.951Z] 403 - You cannot change your own admin status
+[2025-10-19T13:19:56.823Z] 403 - You cannot change your own admin status

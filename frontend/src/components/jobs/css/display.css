@@ -1,0 +1,158 @@
+/* 🌈 Soft Gradient Background */
+body .light {
+    background: linear-gradient(135deg, #dfe9ff, #f7e8ff);
+    font-family: "Rubik", sans-serif;
+}
+
+/* 🗂️ Job Card */
+.JobCard {
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid rgba(180, 180, 255, 0.3);
+    padding: 18px;
+    border-radius: 18px;
+    margin: 15px;
+    box-shadow: 0 4px 15px rgba(90, 70, 150, 0.15);
+    backdrop-filter: blur(6px);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+body .dark {
+    background: linear-gradient(135deg, #1b1f2f, #271c34);
+}
+
+.JobCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(70, 50, 140, 0.25);
+}
+
+/* 📊 Job Table */
+.JobTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/* header */
+.JobTable th {
+    background: linear-gradient(135deg, #c7d3ff, #e6c1ff);
+    color: #333;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+}
+
+.JobTable td {
+    border: none;
+    border-bottom: 1px solid rgba(200, 200, 255, 0.4);
+    padding: 12px;
+    background: white;
+}
+
+/* remove last border */
+.JobTable tr:last-child td {
+    border-bottom: none;
+}
+
+/* 🧁 Hover row effect */
+.JobTable tr:hover td {
+    background: #f3ecff;
+    transition: 0.2s ease;
+}
+
+/* 📱 Mobile Responsive Stack */
+@media (max-width: 768px) {
+    .JobTable thead {
+        display: none;
+    }
+
+    .JobTable,
+    .JobTable tbody,
+    .JobTable tr,
+    .JobTable td {
+        display: block;
+        width: 100%;
+    }
+
+    .JobTable tr {
+        margin-bottom: 18px;
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 4px 12px rgba(70, 40, 120, 0.15);
+        padding: 10px 0;
+    }
+
+    .JobTable td {
+        text-align: right;
+        padding-left: 55%;
+        border: none;
+        position: relative;
+        border-bottom: 1px solid #eee;
+        background: none;
+    }
+
+    .JobTable td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        width: 45%;
+        font-weight: 600;
+        color: #6b5aa6;
+        text-align: left;
+    }
+
+    .JobTable td:last-child {
+        border-bottom: none;
+    }
+}
+
+/* 🌙 Dark Mode Styles */
+.dark body {
+    background: linear-gradient(135deg, #1b1f2f, #271c34);
+}
+
+/* Job Card — Dark */
+.dark .JobCard {
+    background: rgba(30, 30, 40, 0.85);
+    border: 1px solid rgba(120, 120, 180, 0.25);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.35);
+}
+
+.dark .JobCard:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.55);
+}
+
+/* Table — Dark */
+.dark .JobTable th {
+    background: linear-gradient(135deg, #3d4469, #513f66);
+    color: #e7e7ff;
+}
+
+.dark .JobTable td {
+    background: #2a2d3e;
+    color: #eae6ff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.dark .JobTable tr:hover td {
+    background: #35394d;
+}
+
+/* Mobile — Dark */
+@media (max-width: 768px) {
+    .dark .JobTable tr {
+        background: rgba(40, 40, 55, 0.9);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    }
+
+    .dark .JobTable td {
+        background: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        color: #e6e2ff;
+    }
+
+    .dark .JobTable td::before {
+        color: #c3b3ff;
+    }
+}

@@ -1,0 +1,30 @@
+[2025-11-25T18:28:31.743Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:28:31.765Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:28:49.095Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:28:49.101Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:29:23.711Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:29:23.717Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:29:27.293Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:29:27.299Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:29:35.856Z] 401 - No token provided
+[2025-11-25T18:29:44.109Z] 401 - No token provided
+[2025-11-25T18:30:40.761Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:30:40.766Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:31:18.967Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:31:18.980Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:34:46.926Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:34:46.930Z] 401 - User is not authorized: jwt expired
+[2025-11-25T18:39:48.279Z] 403 - email or password incorrect
+[2025-11-25T18:40:02.534Z] 401 - User is not authorized: jwt malformed
+[2025-11-25T18:40:02.536Z] 401 - User is not authorized: jwt malformed
+[2025-11-25T18:41:00.650Z] 401 - User is not authorized: jwt malformed
+[2025-11-25T18:41:00.652Z] 401 - User is not authorized: jwt malformed
+[2025-11-25T18:43:50.968Z] 401 - User is not authorized: jwt malformed
+[2025-11-25T18:43:50.971Z] 401 - User is not authorized: jwt malformed
+[2025-11-25T18:46:11.545Z] 403 - email or password incorrect
+[2025-11-25T19:13:08.188Z] 401 - No token provided
+[2025-11-25T19:16:02.413Z] 400 - Job creation failed: generateUniqueJobNumber is not defined
+[2025-11-25T19:16:06.025Z] 400 - Job creation failed: generateUniqueJobNumber is not defined
+[2025-11-25T19:16:10.426Z] 400 - Job creation failed: generateUniqueJobNumber is not defined
+[2025-11-25T19:17:42.479Z] 400 - Job creation failed: Card is not defined
+[2025-11-25T19:27:34.778Z] 403 - Only the user themselves can access this

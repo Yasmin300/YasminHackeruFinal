@@ -1,0 +1,324 @@
+/* ======================== */
+/* Theme Variables */
+/* ======================== */
+:root {
+    --bg-color: #f0f4f8;
+    --text-color: #333;
+    --subtitle-color: #555;
+    --primary-color: #1a73e8;
+    --card-bg: linear-gradient(145deg, #ffffff, #e6f0ff);
+    --card-shadow: rgba(0, 0, 0, 0.08);
+    --button-danger: #e53935;
+    --button-danger-hover: #c62828;
+    --status-pending: #f0ad4e;
+    --status-reviewed: #5bc0de;
+    --status-accepted: #5cb85c;
+    --status-rejected: #d9534f;
+}
+
+.dark {
+    --bg-color: #1e1e1e;
+    --text-color: #eee;
+    --subtitle-color: #aaa;
+    --primary-color: #4fc3f7;
+    --card-bg: linear-gradient(145deg, #2c2c2c, #3a3a3a);
+    --card-shadow: rgba(0, 0, 0, 0.5);
+    --button-danger: #ef5350;
+    --button-danger-hover: #e53935;
+    --status-pending: #ffa726;
+    --status-reviewed: #29b6f6;
+    --status-accepted: #66bb6a;
+    --status-rejected: #ef5350;
+}
+
+/* ======================== */
+/* 1. Container Styling */
+/* ======================== */
+.my-applications-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    min-height: 100vh;
+    transition: all 0.5s ease;
+}
+
+.my-applications-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    animation: fadeInDown 1s ease;
+}
+
+.my-applications-container .subtitle {
+    text-align: center;
+    color: var(--subtitle-color);
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    animation: fadeInDown 1.2s ease;
+}
+
+/* ======================== */
+/* 2. Applications List Styling */
+/* ======================== */
+.applications-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    padding: 0;
+    list-style: none;
+}
+
+.application-card {
+    background: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: 0 8px 20px var(--card-shadow);
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.5s ease;
+    position: relative;
+    overflow: hidden;
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.application-card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: rgba(255, 255, 255, 0.05);
+    transform: rotate(45deg);
+    pointer-events: none;
+    transition: all 0.5s ease;
+}
+
+.application-card:hover::before {
+    top: -30%;
+    left: -30%;
+}
+
+.application-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px var(--card-shadow);
+}
+
+/* ======================== */
+/* 3. Text & Info Styling */
+/* ======================== */
+.application-card h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    animation: fadeInLeft 0.8s ease;
+}
+
+.application-card p {
+    margin: 6px 0;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    animation: fadeIn 1s ease;
+}
+
+.application-card .company {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.application-card .app-resume-link {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 6px 14px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.application-card .app-resume-link:hover {
+    transform: scale(1.05);
+}
+
+/* ======================== */
+/* 4. Buttons & Select Styling */
+/* ======================== */
+.application-card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.application-card-actions .app-withdraw-btn,
+.application-card-actions select {
+    flex: 0 1 180px;
+    /* fixed min width and slight growth */
+    min-width: 140px;
+    font-size: 0.95rem;
+}
+
+.application-card-actions .status {
+    flex: 0 0 auto;
+    /* fixed size */
+    margin-left: auto;
+    font-size: 0.95rem;
+    padding: 6px 12px;
+}
+
+/* Buttons & Select hover */
+.app-withdraw-btn:hover,
+.application-card select:hover {
+    transform: scale(1.05);
+}
+
+.app-withdraw-btn {
+    padding: 6px 14px;
+    margin-right: 10px;
+    background-color: var(--button-danger);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.app-withdraw-btn:hover {
+    background-color: var(--button-danger-hover);
+}
+
+.application-card select {
+    padding: 5px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+/* ======================== */
+/* 5. Status Badge Styling */
+/* ======================== */
+.status {
+    border-radius: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 5px;
+    color: #fff;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.status.pending {
+    background-color: var(--status-pending);
+}
+
+.status.reviewed {
+    background-color: var(--status-reviewed);
+}
+
+.status.accepted {
+    background-color: var(--status-accepted);
+}
+
+.status.rejected {
+    background-color: var(--status-rejected);
+}
+
+.status:hover {
+    transform: scale(1.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ======================== */
+/* 6. No Applicants Message */
+/* ======================== */
+.no-apps {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--subtitle-color);
+}
+
+/* ======================== */
+/* 7. Responsive Tweaks */
+/* ======================== */
+@media (max-width: 480px) {
+    .application-card-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .application-card-actions .app-withdraw-btn,
+    .application-card-actions select,
+    .application-card-actions .status {
+        flex: 1 1 100%;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* ======================== */
+/* 8. Animations */
+/* ======================== */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.cover-letter {
+    word-wrap: break-word;
+    /* older property, widely supported */
+    overflow-wrap: break-word;
+    /* modern standard */
+    hyphens: auto;
+    /* optional, adds hyphens if supported */
+}

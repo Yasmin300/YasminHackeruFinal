@@ -1,0 +1,4 @@
+[2025-08-05T19:51:24.602Z] 500 - secretOrPrivateKey must have a value
+[2025-08-05T20:42:05.874Z] 401 - User is not authorized: jwt expired
+[2025-08-05T20:54:14.975Z] 500 - next is not defined
+[2025-08-05T20:56:35.378Z] 400 - Invalid card IDCast to ObjectId failed for value "1" (type string) at path "_id" for model "cards"

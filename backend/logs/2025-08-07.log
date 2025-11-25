@@ -1,0 +1,28 @@
+[2025-08-07T20:35:44.534Z] 401 - User is not authorized: jwt expired
+[2025-08-07T20:37:03.996Z] 403 - email is used
+[2025-08-07T20:37:17.482Z] 400 - עיר היא שדה חובה
+[2025-08-07T20:41:40.269Z] 400 - "url" missing required peer "alt"
+[2025-08-07T20:41:54.271Z] 400 - "alt" missing required peer "url"
+[2025-08-07T20:44:50.620Z] 400 - Invalid user ID
+[2025-08-07T20:45:37.577Z] 401 - No token provided
+[2025-08-07T20:45:55.544Z] 403 - Only the user themselves can access this
+[2025-08-07T20:48:23.849Z] 403 - Only the user themselves can access this
+[2025-08-07T20:50:17.550Z] 500 - Error deleting userCast to ObjectId failed for value "68950e92abae23b97be195d22" (type string) at path "_id" for model "users"
+[2025-08-07T20:50:27.528Z] 500 - Error deleting userCast to ObjectId failed for value "125" (type string) at path "_id" for model "users"
+[2025-08-07T20:52:47.453Z] 401 - User is not authorized: jwt expired
+[2025-08-07T20:53:06.671Z] 404 - User not found
+[2025-08-07T20:53:55.625Z] 403 - Admin access only
+[2025-08-07T20:54:04.012Z] 403 - Only the user themselves or admin can access this
+[2025-08-07T20:55:04.460Z] 403 - Only the user themselves or admin can access this
+[2025-08-07T20:55:09.192Z] 403 - Only the user themselves or admin can access this
+[2025-08-07T20:55:20.155Z] 403 - Only the user themselves can access this
+[2025-08-07T20:56:11.587Z] 500 - Cannot access 'error' before initialization
+[2025-08-07T20:56:33.214Z] 500 - Cannot access 'error' before initialization
+[2025-08-07T20:56:59.599Z] 500 - Cannot access 'error' before initialization
+[2025-08-07T20:58:31.345Z] 403 - Only the user themselves can access this
+[2025-08-07T20:58:41.204Z] 403 - Only the user themselves can access this
+[2025-08-07T20:58:57.472Z] 403 - Only the user themselves or admin can access this
+[2025-08-07T20:59:45.206Z] 403 - Only the user themselves or admin can access this
+[2025-08-07T21:00:01.430Z] 403 - email or password incorrect
+[2025-08-07T21:05:40.661Z] 401 - User is not authorized: jwt expired
+[2025-08-07T21:57:24.143Z] 400 - Invalid card IDCast to ObjectId failed for value "1" (type string) at path "_id" for model "cards"

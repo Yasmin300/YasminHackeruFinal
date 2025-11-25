@@ -1,0 +1,5 @@
+[2025-11-04T19:49:12.271Z] 401 - User is not authorized: jwt expired
+[2025-11-04T19:49:12.330Z] 401 - User is not authorized: jwt expired
+[2025-11-04T20:27:08.830Z] 403 - email or password incorrect
+[2025-11-04T21:12:41.461Z] 401 - User is not authorized: jwt expired
+[2025-11-04T21:12:41.470Z] 401 - User is not authorized: jwt expired

@@ -1,0 +1,15 @@
+[2025-08-08T14:49:28.309Z] 401 - No token provided
+[2025-08-08T14:50:25.436Z] 401 - User is not authorized: invalid signature
+[2025-08-08T14:50:30.167Z] 403 - Only the user themselves can access this
+[2025-08-08T14:50:39.181Z] 403 - Business users only
+[2025-08-08T14:52:15.452Z] 401 - User is not authorized: jwt expired
+[2025-08-08T14:52:34.338Z] 401 - User is not authorized: jwt expired
+[2025-08-08T18:17:29.305Z] 401 - User is not authorized: jwt expired
+[2025-08-08T18:25:07.381Z] 403 - email or password incorrect
+[2025-08-08T18:25:50.940Z] 401 - User is not authorized: jwt expired
+[2025-08-08T18:26:02.451Z] 403 - Only the user themselves or admin can access this
+[2025-08-08T18:26:31.086Z] 403 - Only the user themselves or admin can access this
+[2025-08-08T18:41:29.309Z] 401 - User is not authorized: jwt expired
+[2025-08-08T18:43:57.131Z] 401 - User is not authorized: jwt expired
+[2025-08-08T20:29:26.758Z] 400 - Invalid card ID
+[2025-08-08T20:30:19.641Z] 409 - Business number already in use

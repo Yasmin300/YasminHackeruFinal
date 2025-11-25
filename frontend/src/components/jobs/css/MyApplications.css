@@ -1,0 +1,148 @@
+.my-applications-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    transition: all 0.3s ease;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.my-applications-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.my-applications-container .subtitle {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 20px;
+}
+
+.applications-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.application-card {
+    border-radius: 12px;
+    padding: 20px;
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.application-card:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--card-shadow-hover);
+}
+
+.cover-letter {
+    word-wrap: break-word;
+    /* older property, widely supported */
+    overflow-wrap: break-word;
+    /* modern standard */
+    hyphens: auto;
+    /* optional, adds hyphens if supported */
+}
+
+.application-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+.application-card .company {
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.application-card p {
+    margin: 6px 0;
+}
+
+.status {
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 3px 8px;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.status.pending {
+    background-color: #f0ad4e;
+}
+
+.status.reviewed {
+    background-color: #5bc0de;
+}
+
+.status.accepted {
+    background-color: #5cb85c;
+}
+
+.status.rejected {
+    background-color: #d9534f;
+}
+
+.resume-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.resume-link:hover {
+    text-decoration: underline;
+}
+
+.no-apps {
+    text-align: center;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+/* 🌙 Dark & ☀️ Light mode variables */
+.lighta {
+    --bg: #f8f9fa;
+    --text: #222;
+    --text-secondary: #555;
+    --card-bg: #ffffff;
+    --accent: #007bff;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+    --card-shadow-hover: rgba(0, 0, 0, 0.2);
+}
+
+.darka {
+    --bg: #181818;
+    --text: #f5f5f5;
+    --text-secondary: #aaa;
+    --card-bg: #242424;
+    --accent: #66b3ff;
+    --card-shadow: rgba(0, 0, 0, 0.4);
+    --card-shadow-hover: rgba(0, 0, 0, 0.6);
+}
+
+.my-applications-container.lighta,
+.my-applications-container.darka {
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.withdraw-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.withdraw-btn:hover {
+    background-color: #e63939;
+}

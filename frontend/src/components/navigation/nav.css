@@ -1,0 +1,133 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 20px 30px;
+}
+
+.navbar-toggler {
+    margin: auto;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+.user-menu {
+    position: relative;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.6rem;
+    /* adjust as needed, 1.2rem is bigger */
+    padding: 10px 15px;
+    /* optional: make clickable area bigger */
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    /* vertically centers children */
+}
+
+.searchIcon {
+    font-size: 25px;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+.searchIcon:hover {
+    transform: scale(1.05) translateY(-5px);
+    color: #ffdb11;
+}
+
+.secPart {
+    font-size: 25px;
+    color: #f1e101 !important;
+}
+
+.toggle {
+    font-size: 30px;
+}
+
+.user-menu .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border: 1px solid gray;
+}
+
+.user-menu:hover .dropdown {
+    display: block;
+}
+
+.imgAccount {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#mainNavbar {
+
+    z-index: 1050;
+    /* higher than other page content */
+}
+
+@media(max-width:991px) {
+    .navbar-nav {
+        width: 80%;
+        padding: 0px !important;
+        margin: 0 auto !important;
+    }
+
+    #mainNavbar h3 {
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+    .searchInput {
+        width: 70%;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 15px;
+    }
+
+    .searchCon {
+        gap: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.view-toggle {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 15px 10px;
+
+}
+
+.view-toggle button {
+    border: 1px solid #ccc;
+    background: white;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.view-toggle button.active {
+    background: #007bff;
+    color: white;
+}

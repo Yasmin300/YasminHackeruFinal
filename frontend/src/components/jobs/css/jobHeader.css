@@ -1,0 +1,111 @@
+.JobsHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: #f5f7fa;
+    padding: 2rem;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.527);
+    font-family: 'Cormorant Garamond', 'Lato', serif;
+    margin: auto;
+    animation: fadeSlideIn 1s ease-out forwards;
+
+}
+
+.dark .Jobs .JobsHeader {
+    background-color: #2e3858 !important;
+    color: #e8f4fd !important;
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.527);
+}
+
+.JobsHeader h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.JobsHeader p {
+    font-size: 1.3em;
+}
+
+@media (max-width:1069px) {
+    .JobsHeader h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width:816px) {
+    .JobsHeader h1 {
+        font-size: 2rem;
+    }
+
+    .JobsHeader {
+        width: 90%;
+
+    }
+}
+
+.dark .JobsHeader h1 {
+    color: #e8f4fd;
+}
+
+.registerPrompt {
+    margin-top: 1.5rem;
+    background-color: #e8f4fd;
+    padding: 1rem;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: left;
+    animation: fadeZoomIn 0.6s ease-out 0.5s forwards;
+}
+
+.dark .registerPrompt {
+    background-color: #2e3858 !important;
+
+}
+
+@keyframes fadeZoomIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.registerPrompt ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0 1rem 0;
+}
+
+.registerPrompt li {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+}
+
+.registerButton {
+    padding: 0.6rem 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registerButton:hover {
+    background-color: #0056b3;
+}
+
+/* Fade + slide animation */
+@keyframes fadeSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

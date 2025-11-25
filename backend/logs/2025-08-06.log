@@ -1,0 +1,5 @@
+[2025-08-06T16:14:44.805Z] 400 - Invalid card IDCast to ObjectId failed for value "1" (type string) at path "_id" for model "cards"
+[2025-08-06T16:19:28.105Z] 403 - email or password incorrect
+[2025-08-06T16:19:37.899Z] 400 - "password" is required
+[2025-08-06T16:35:29.264Z] 403 - email or password incorrect
+[2025-08-06T16:35:51.674Z] 401 - No token provided

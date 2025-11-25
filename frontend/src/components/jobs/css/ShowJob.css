@@ -1,0 +1,190 @@
+/* ShowJob.css */
+
+/* Main container */
+.jobPage {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    background: linear-gradient(145deg, #ffffff, #f0f4f8);
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode */
+.dark .jobPage {
+    background: linear-gradient(145deg, #232b46, #1b2238);
+    color: #e8f4fd;
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+}
+
+/* Header */
+.jobPage h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.3rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.dark .jobPage h1 {
+    color: #f0f8ff;
+}
+
+.jobPage h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color: #555;
+}
+
+.dark .jobPage h3 {
+    color: #a8c9f0;
+}
+
+/* Job info blocks */
+.jobPage p {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+.jobPage strong {
+    font-weight: 600;
+}
+
+/* Requirements & Benefits sections */
+.jobPage ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.jobPage li {
+    background-color: #e3f2fd;
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: default;
+}
+
+.jobPage li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+}
+
+.dark .jobPage li {
+    background-color: #1f2a4d;
+    color: #e8f4fd;
+}
+
+/* Heart favorite icon */
+.fas.fa-heart {
+    color: #ccc;
+    font-size: 26px;
+    transition: color 0.3s, transform 0.2s;
+    margin: 15px 0;
+}
+
+.fas.fa-heart.fav {
+    color: #ff4b5c;
+    transform: scale(1.2);
+}
+
+/* Apply form */
+.jobPage form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 1rem;
+    background-color: #f5f7fa;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+}
+
+.dark .jobPage form {
+    background-color: #1f2947;
+}
+
+.jobPage form label {
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.jobPage form input[type="file"],
+.jobPage form textarea {
+    margin-top: 0.5rem;
+    padding: 0.7rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s, background-color 0.3s;
+}
+
+.dark .jobPage form input[type="file"],
+.dark .jobPage form textarea {
+    border: 1px solid #444;
+    background-color: #1b2238;
+    color: #e8f4fd;
+}
+
+.jobPage form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* Apply button */
+.jobPage form button {
+    width: fit-content;
+    padding: 0.9rem 1.8rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    /* animate scale & shadow */
+}
+
+.jobPage form button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+}
+
+.jobPage form button:hover {
+    background: linear-gradient(90deg, #0056b3, #00a1cc);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .jobPage {
+        padding: 1.5rem;
+    }
+
+    .jobPage h1 {
+        font-size: 2rem;
+    }
+
+    .jobPage h3 {
+        font-size: 1.3rem;
+    }
+
+    .jobPage li {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+}
